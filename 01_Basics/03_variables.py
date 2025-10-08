@@ -105,3 +105,148 @@ first, *middle, last = numbers
 print("First:", first, "Middle:", middle, "Last:", last)
 
 # Variable scope in nested functions
+
+
+# ======================================================
+#  LOW LEVEL (Basic Variables)
+# ======================================================
+
+# Simple assignments
+x = 10
+y = 3.14
+name = "Alice"
+is_active = True
+print("x:", x, "y:", y, "name:", name, "is_active:", is_active)
+
+# Multiple assignment
+a, b, c = 1, 2, 3
+print("a:", a, "b:", b, "c:", c)
+
+# Same value to multiple variables
+m = n = 100
+print("m:", m, "n:", n)
+
+# Variable naming rules
+_var1 = "valid"
+var_2 = "valid"
+# 2var = "invalid"  # ❌ can't start with digit
+# @name = "invalid" # ❌ can't use special chars
+
+# Swapping values
+p, q = 5, 10
+p, q = q, p
+print("Swapped -> p:", p, "q:", q)
+
+
+# ======================================================
+#  MEDIUM LEVEL (Type Casting & Operations)
+# ======================================================
+
+# Arithmetic
+num1 = 15
+num2 = 4
+print("Addition:", num1 + num2)
+print("Subtraction:", num1 - num2)
+print("Multiplication:", num1 * num2)
+print("Division:", num1 / num2)
+print("Floor Division:", num1 // num2)
+print("Modulus:", num1 % num2)
+print("Power:", num1 ** num2)
+
+# Type casting
+int_val = int("20")        # str → int
+float_val = float("5.5")   # str → float
+str_val = str(100)         # int → str
+bool_val1 = bool(0)        # False
+bool_val2 = bool(123)      # True
+print(int_val, float_val, str_val, bool_val1, bool_val2)
+
+# f-strings
+age = 25
+print(f"My name is {name} and I am {age} years old.")
+
+# Dynamic typing
+data = 42
+print("Data:", data, "Type:", type(data))
+data = "Now I am a string"
+print("Data:", data, "Type:", type(data))
+
+
+# ======================================================
+#  HIGH LEVEL (Advanced Variables)
+# ======================================================
+
+"""
+Advanced variables:
+- Constants
+- Global vs Local
+- Mutable vs Immutable
+- Variable scope
+- Object references
+"""
+
+# Constants (by convention)
+PI = 3.14159
+GRAVITY = 9.8
+print("PI:", PI, "GRAVITY:", GRAVITY)
+
+# Global vs Local variables
+count = 0
+
+def increment():
+    """
+    Demonstrates local vs global variables.
+    """
+    global count
+    count += 1
+    return count
+
+print("Global count:", increment())
+print("Global count:", increment())
+
+# Local shadowing global
+x = "global"
+
+def test_scope():
+    x = "local"
+    print("Inside function:", x)
+
+test_scope()
+print("Outside function:", x)
+
+# Mutable vs Immutable
+num = 10
+lst = [1, 2, 3]
+
+num += 5  # creates new int object
+lst.append(4)  # modifies same list object
+
+print("Num:", num)
+print("List:", lst)
+
+# Memory reference
+a = [1, 2, 3]
+b = a  # both point to same object
+b.append(4)
+print("a:", a, "b:", b)
+
+# Cloning list (different object)
+c = a.copy()
+c.append(5)
+print("a:", a, "c:", c)
+
+# Deleting variables
+temp = "temporary"
+print("Before delete:", temp)
+del temp
+# print(temp)  # would raise NameError
+
+# Unpacking
+numbers = [1, 2, 3, 4, 5]
+first, *middle, last = numbers
+print("First:", first, "Middle:", middle, "Last:", last)
+
+# Extended unpacking with tuple
+t = (10, 20, 30, 40)
+x, y, *rest = t
+print("x:", x, "y:", y, "rest:", rest)
