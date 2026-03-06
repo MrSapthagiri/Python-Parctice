@@ -105,8 +105,6 @@ first, *middle, last = numbers
 print("First:", first, "Middle:", middle, "Last:", last)
 
 # Variable scope in nested functions
-
-
 # ======================================================
 #  LOW LEVEL (Basic Variables)
 # ======================================================
