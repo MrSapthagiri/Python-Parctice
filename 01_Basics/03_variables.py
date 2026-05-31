@@ -248,3 +248,4 @@ print("First:", first, "Middle:", middle, "Last:", last)
 t = (10, 20, 30, 40)
 x, y, *rest = t
 print("x:", x, "y:", y, "rest:", rest)
+
