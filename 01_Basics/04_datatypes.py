@@ -8,17 +8,17 @@ print("==========================================")
 
 # ==========================================
 # LOW LEVEL DATA TYPES (Beginner Level)
-# ========================================== 
-print("\n" + "="*50) 
+# ==========================================
+print("\n" + "="*50)
 print("LOW LEVEL DATA TYPES (Beginner - Most Common)")
 print("="*50)
- 
+
 # 1. Integer (int) - Whole numbers
 print("\n1. INTEGER (int)")
-print("-" * 20) 
+print("-" * 20)
 age = 25
 negative_num = -10
-zero = 0 
+zero = 0
 large_num = 1000000
 print(f"Age: {age}, type: {type(age)}")
 print(f"Negative: {negative_num}, type: {type(negative_num)}")
