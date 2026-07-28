@@ -1,1 +1,0 @@
-# 06_encapsulation.py
