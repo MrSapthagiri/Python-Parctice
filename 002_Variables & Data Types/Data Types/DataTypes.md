@@ -262,7 +262,24 @@ print(id(name))
 
 ------------------------------------------------------------------------
 
-# 16. Real-Time Automation Example
+# 16. Python Input & Output
+
+``` python
+print("Hello, World!")
+
+name = "Santhosh"
+print(name)
+
+name = input("Enter your name: ")
+print(name)
+
+name = input("Enter your name: ")
+print("Hello", name)
+
+```
+
+------------------------------------------------------------------------
+# 17. Real-Time Automation Example
 
 ``` python
 browser = "Chrome"
