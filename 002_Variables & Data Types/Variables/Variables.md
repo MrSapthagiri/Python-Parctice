@@ -148,7 +148,7 @@ print(type(name))
 ```
 
 Common types:
-
+<!-- 
 -   int
 -   float
 -   str
@@ -157,7 +157,7 @@ Common types:
 -   tuple
 -   dict
 -   set
--   NoneType
+-   NoneType -->
 
 ------------------------------------------------------------------------
 
