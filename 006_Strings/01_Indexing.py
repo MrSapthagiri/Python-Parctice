@@ -3,6 +3,7 @@
 #
 # 1. INTRODUCTION TO STRING INDEXING
 # String indexing is used to access individual characters in a string by position.
+
 # Python supports:
 #   - Positive indexing: starts at 0 (left to right)
 #   - Negative indexing: starts at -1 (right to left)
