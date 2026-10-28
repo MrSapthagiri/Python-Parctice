@@ -81,9 +81,8 @@ print("\n5. List after sort():", animals_in_order)
 # Example 6: sort() returns None.
 # The list changes, but the return value is not a sorted list.
 tasks = ["write", "plan", "review"]
-sort_result = tasks.sort()
-print("\n6. Changed list:", tasks)
-print("   Return from sort():", sort_result)
+print("\n6. Return from sort():", tasks.sort())
+print("   Changed list:", tasks)
 
 # Example 7: Sort words by length.
 # key=len compares the length of each word instead of the word itself.

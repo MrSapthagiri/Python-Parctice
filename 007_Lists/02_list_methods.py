@@ -38,9 +38,9 @@ if "Rust" in languages:
 
 print("\nExample 2: sort() changes the original list")
 scores = [84, 61, 93, 75]
-result = scores.sort()
+scores.sort()
 print(scores)  # [61, 75, 84, 93]
-print(result)  # None: sort() modifies in place.
+print("sort() modifies the list in place and returns None.")
 
 print("\nExample 3: sorted() returns a new ordered list")
 original = [84, 61, 93, 75]

@@ -39,7 +39,7 @@ print("\n1. Create a list:", fruits)
 
 # Example 2: Create an empty list.
 # Start empty when the program will collect values later.
-shopping_cart = []
+shopping_cart: list[str] = []
 print("\n2. Empty list:", shopping_cart)
 # Output: 2. Empty list: []
 

@@ -50,7 +50,7 @@ for row in students:
 print("\nExample 3: Calculate a total for each row")
 for row in students:
     name = row[0]
-    scores = row[1:]
+    scores = [score for score in row[1:] if isinstance(score, int)]
     average = sum(scores) / len(scores)
     print(f"{name}: average {average:.1f}")
 
