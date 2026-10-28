@@ -12,7 +12,7 @@ Syntax: range(stop) OR range(start, stop) OR range(start, stop, step)
 2. FLOWCHART (Mental Model):
       [range(3)] generates -> [0, 1, 2]
       [range(2, 5)] generates -> [2, 3, 4]
-      [range(0, 10, 2)] generates -> [0, 2, 4, 6, 8]
+      [range(0, 10, 2)] generates -> [0, 2, 4, 6, 8] 0 1 2 3 4 5 6 7 8 9
       * Note: It ALWAYS stops BEFORE the 'stop' number.
 
 ================================================================================

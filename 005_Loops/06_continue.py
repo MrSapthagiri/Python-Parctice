@@ -30,7 +30,7 @@ print("\n--- Low Level (Basic) ---")
 # ==========================================
 # Example 1: Skipping a number
 # ==========================================
-for i in range(5):
+for i in range(5): 
     if i == 2:
         continue # Skip the number 2
     print(f"Ex 1: {i}")

@@ -56,6 +56,7 @@ if num % 2 == 0:
 # ==========================================
 credit_score = 750
 salary = 50000
+
 if credit_score > 700:
     if salary > 40000:
         print("Ex 3: Loan Approved!")

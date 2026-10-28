@@ -28,7 +28,7 @@ print("\n--- Low Level (Basic) ---")
 # ==========================================
 # Example 1: Breaking a 'for' loop
 # ==========================================
-for i in range(5):
+for i in range(5):      3 4 
     if i == 3:
         print("Ex 1: Hit 3, breaking out!")
         break
@@ -39,7 +39,7 @@ for i in range(5):
 # Example 2: Breaking a 'while' loop
 # ==========================================
 count = 0
-while count < 10:
+while count < 10:  
     if count == 2:
         break
     print(f"Ex 2: Count is {count}")

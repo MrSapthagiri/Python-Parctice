@@ -32,8 +32,8 @@ print("\n--- Low Level (Basic) ---")
 # Example 1: Looping over a list
 # ==========================================
 fruits = ["apple", "banana", "cherry"]
-for fruit in fruits:
-    print(f"Ex 1: I love {fruit}")
+for Number_fruit in fruits:
+    print(f"Ex 1: I Need a {Number_fruit}")
 # Explanation: The loop grabs "apple", prints it, then grabs "banana", prints it, etc.
 
 # ==========================================
