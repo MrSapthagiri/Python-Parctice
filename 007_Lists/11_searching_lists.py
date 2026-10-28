@@ -1,5 +1,5 @@
 """
-MODULE 7.11: SEARCHING LISTS
+SEARCHING LISTS
 
 DEFINITION
 Searching checks whether a value is present and may find its position.

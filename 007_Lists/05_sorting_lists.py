@@ -1,5 +1,5 @@
 """
-MODULE 7: SORTING LISTS - 30 EXAMPLES
+SORTING LISTS - 30 EXAMPLES
 
 DEFINITION
 Sorting arranges values in an order. Python provides:

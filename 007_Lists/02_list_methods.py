@@ -1,5 +1,5 @@
 """
-MODULE 7.4: BUILT-IN LIST METHODS AND FUNCTIONS
+LIST METHODS AND FUNCTIONS
 
 DEFINITION
 List methods perform common operations on a list. Some modify the list and

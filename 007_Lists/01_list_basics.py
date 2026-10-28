@@ -1,5 +1,6 @@
 """
-MODULE 7.1: LIST BASICS - 30 PRACTICAL EXAMPLES
+
+LIST BASICS - 30 PRACTICAL EXAMPLES
 
 WHAT IS A LIST?
 A list is an ordered, changeable collection of values. Lists use square

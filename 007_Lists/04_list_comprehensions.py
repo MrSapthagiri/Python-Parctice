@@ -1,5 +1,5 @@
 """
-MODULE 7.6: LIST COMPREHENSIONS
+LIST COMPREHENSIONS
 
 DEFINITION
 A list comprehension creates a new list from an iterable in one expression.

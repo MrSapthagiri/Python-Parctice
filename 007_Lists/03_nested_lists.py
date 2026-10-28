@@ -1,5 +1,5 @@
 """
-MODULE 7.7: NESTED LISTS
+NESTED LISTS
 
 DEFINITION
 A nested list is a list that contains other lists. It can represent a small
